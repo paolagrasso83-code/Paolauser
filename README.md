@@ -18,7 +18,7 @@ Nel file `index.html` cerca il testo `✎` (o la classe `edit-note`) per trovare
 1. **Foto** — sostituisci i riquadri grigi in "Chi sono" e "Galleria" con foto vere.
    - Metti i file in `assets/gallery/` (es. `assets/gallery/foto1.jpg`)
    - Nell'HTML, sostituisci `<div class="gallery-item">...</div>` con `<div class="gallery-item"><img src="assets/gallery/foto1.jpg" alt="Trucco sposa, dettaglio occhi"></div>`
-   - Scegli le 6-9 foto migliori e più recenti dal profilo Instagram (@maryling80_makeup) — dettagli ravvicinati, buona luce, prima/dopo se disponibili.
+   - Scegli le 6-9 foto migliori e più recenti dal profilo Instagram (@marylin80_makeup) — dettagli ravvicinati, buona luce, prima/dopo se disponibili.
 2. **Bio** — nella sezione "Chi sono", scrivi 2-3 frasi vere in prima persona (anni di esperienza, formazione, collaborazioni, cosa rende il tuo stile riconoscibile).
 3. **Recensioni** — sostituisci i placeholder `[Inserisci qui una recensione reale]` con frasi vere di clienti soddisfatte (chiedi il permesso prima di pubblicare nome/cognome).
 4. **Email** — quando avrai un'email professionale, aggiungi un link `mailto:` nella sezione "Contatti".
