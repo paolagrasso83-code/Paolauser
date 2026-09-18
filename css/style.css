@@ -1,12 +1,12 @@
 /* ============ NUDE — Makeup Artist Catania ============ */
 
 :root {
-  --black: #0a0a0a;
-  --off-black: #141414;
-  --white: #faf9f7;
-  --cream: #f2efe9;
-  --line: rgba(10, 10, 10, 0.12);
-  --line-light: rgba(250, 249, 247, 0.2);
+  --black: #1c1512;
+  --off-black: #2a2119;
+  --white: #faf5ec;
+  --cream: #efe1cc;
+  --line: rgba(28, 21, 18, 0.14);
+  --line-light: rgba(250, 245, 236, 0.2);
   --font-display: "Bodoni Moda", "Times New Roman", serif;
   --font-body: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
   --ease: cubic-bezier(0.16, 1, 0.3, 1);
