@@ -1,4 +1,4 @@
-# ÁTTI — Sito web makeup artist (Catania)
+# NUDE — Sito web makeup artist (Catania)
 
 Sito statico (HTML/CSS/JS puro, nessuna installazione richiesta) pronto per essere pubblicato online.
 
@@ -23,7 +23,7 @@ Nel file `index.html` cerca il testo `✎` (o la classe `edit-note`) per trovare
 3. **Recensioni** — sostituisci i placeholder `[Inserisci qui una recensione reale]` con frasi vere di clienti soddisfatte (chiedi il permesso prima di pubblicare nome/cognome).
 4. **Email** — quando avrai un'email professionale, aggiungi un link `mailto:` nella sezione "Contatti".
 5. **WhatsApp** — il numero è già impostato (+39 340 320 5835). Se cambia, aggiornalo in `index.html` (cerca `393403205835`, compare 3 volte).
-6. **Nome brand** — se in futuro vuoi cambiare "ÁTTI", cerca/sostituisci la stringa in tutto `index.html` e nel `<title>`.
+6. **Nome brand** — se in futuro vuoi cambiare "NUDE", cerca/sostituisci la stringa in tutto `index.html` e nel `<title>`.
 
 ---
 
@@ -34,19 +34,19 @@ Il sito è statico: basta "appoggiarlo" su un hosting gratuito, nessun server da
 **Opzione consigliata: Netlify**
 1. Vai su [netlify.com](https://netlify.com) e crea un account gratuito.
 2. Trascina la cartella del progetto nella dashboard ("Deploy manually") — oppure collega il repository GitHub per aggiornamenti automatici ad ogni modifica.
-3. In pochi secondi ottieni un link tipo `atti-makeup.netlify.app`.
+3. In pochi secondi ottieni un link tipo `nude-makeup.netlify.app`.
 4. Da "Domain settings" potrai collegare il dominio vero una volta acquistato (vedi sotto).
 
 Alternative equivalenti e altrettanto valide: **Vercel** (vercel.com) o **GitHub Pages** (gratis se il codice è su GitHub).
 
 ---
 
-## Dominio (es. attimakeup.it)
+## Dominio (es. nudemakeup.it)
 
 1. **Scegli il nome a dominio.** Suggerimenti da verificare:
-   - `attimakeup.it`
-   - `atti-makeup.it`
-   - `attimakeup.com` (se vuoi puntare anche a clienti internazionali/turisti)
+   - `nudemakeup.it`
+   - `nude-makeup.it`
+   - `nudemakeup.com` (se vuoi puntare anche a clienti internazionali/turisti)
 2. **Verifica disponibilità e registralo** tramite un registrar accreditato. Per `.it` serve un codice fiscale italiano (tua sorella lo ha di sicuro), quindi è una procedura semplice. Alcune opzioni affidabili:
    - **Aruba.it** — italiano, economico, assistenza in italiano, molto usato dai freelance IT.
    - **Register.it** — italiano, semplice da usare.
@@ -57,7 +57,7 @@ Alternative equivalenti e altrettanto valide: **Vercel** (vercel.com) o **GitHub
 
 ---
 
-## Email professionale (es. info@attimakeup.it)
+## Email professionale (es. info@nudemakeup.it)
 
 Un'email con il dominio proprio (invece di una Gmail generica) è ciò che fa sembrare un'attività seria fin dal primo contatto. Opzioni:
 
@@ -75,7 +75,7 @@ Suggerimento: puoi iniziare **senza** email dedicata (usando WhatsApp/Instagram 
    Crea il profilo su [google.com/business](https://www.google.com/business/) come "Truccatrice / Makeup artist" a Catania. Fa apparire l'attività su Google Maps e nelle ricerche locali ("truccatrice Catania"), con recensioni, orari, foto e link al sito/WhatsApp.
 2. **Partita IVA** — se l'attività supera 5.000 €/anno o diventa continuativa, va aperta. Regime forfettario consigliato per la maggior parte delle make-up artist (imposta al 5% i primi 5 anni). Codice ATECO tipico: `96.02.02` (istituti di bellezza) o `96.09.09`. Si apre gratis online con SPID tramite l'Agenzia delle Entrate, oppure con un commercialista (100-200 €).
 3. **WhatsApp Business** (gratuito) — invece del WhatsApp personale, permette catalogo servizi, risposte automatiche, orari e statistiche.
-4. **Coerenza tra i canali** — usa lo stesso nome "ÁTTI", stessa palette bianco/nero e stesso logo/font su Instagram, WhatsApp Business e sito, per essere riconoscibile ovunque.
+4. **Coerenza tra i canali** — usa lo stesso nome "NUDE", stessa palette bianco/nero e stesso logo/font su Instagram, WhatsApp Business e sito, per essere riconoscibile ovunque.
 
 ---
 

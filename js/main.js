@@ -1,4 +1,4 @@
-// ÁTTI — interazioni base del sito
+// NUDE — interazioni base del sito
 
 document.addEventListener("DOMContentLoaded", () => {
   // Anno corrente nel footer
