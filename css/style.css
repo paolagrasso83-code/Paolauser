@@ -16,7 +16,8 @@
 
 html { scroll-behavior: smooth; }
 
-#chi-sono, #servizi, #galleria, #recensioni, #contatti {
+#chi-sono, #servizi, #galleria, #recensioni, #contatti,
+#servizio-sposa, #servizio-editoriale, #servizio-eventi, #servizio-lezioni {
   scroll-margin-top: 90px;
 }
 
@@ -147,6 +148,43 @@ a { color: inherit; text-decoration: none; }
   transition: width 0.3s var(--ease);
 }
 .nav-links a:hover::after { width: 100%; }
+
+.nav-dropdown {
+  position: relative;
+}
+.nav-dropdown-menu {
+  list-style: none;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 0.9rem;
+  min-width: 220px;
+  background: var(--white);
+  border: 1px solid var(--line);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+  padding: 0.5rem 0;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateX(-50%) translateY(-6px);
+  transition: opacity 0.2s var(--ease), transform 0.2s var(--ease), visibility 0.2s;
+}
+.nav-dropdown:hover .nav-dropdown-menu,
+.nav-dropdown:focus-within .nav-dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(0);
+}
+.nav-dropdown-menu li a {
+  display: block;
+  padding: 0.6rem 1.2rem;
+  font-size: 0.78rem;
+  white-space: nowrap;
+  text-transform: none;
+  letter-spacing: 0.02em;
+}
+.nav-dropdown-menu li a:hover { background: var(--cream); }
+.nav-dropdown-menu li a::after { display: none; }
 
 .nav-cta {
   border: 1px solid var(--black);
@@ -550,6 +588,23 @@ a { color: inherit; text-decoration: none; }
   .reviews-grid { grid-template-columns: 1fr; gap: 2rem; }
   .steps-grid { grid-template-columns: 1fr; gap: 2.5rem; }
   .nav-cta { display: none; }
+
+  .nav-dropdown-menu {
+    position: static;
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+    box-shadow: none;
+    border: none;
+    background: none;
+    padding: 0.3rem 0 0 1rem;
+    margin-top: 0.6rem;
+    transition: none;
+  }
+  .nav-dropdown-menu li a {
+    padding: 0.4rem 0;
+    opacity: 0.65;
+  }
 }
 
 @media (max-width: 480px) {
