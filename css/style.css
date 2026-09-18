@@ -397,6 +397,29 @@ a { color: inherit; text-decoration: none; }
   letter-spacing: 0.08em;
   text-transform: uppercase;
   opacity: 0.5;
+  position: relative;
+  overflow: hidden;
+}
+
+.gallery-photo {
+  opacity: 1;
+}
+.gallery-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+}
+.gallery-tag {
+  position: absolute;
+  top: 0.9rem;
+  left: 0.9rem;
+  background: var(--black);
+  color: var(--white);
+  font-size: 0.65rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 0.3rem 0.7rem;
 }
 
 /* ============ Reviews ============ */
