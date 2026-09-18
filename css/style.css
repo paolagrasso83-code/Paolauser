@@ -16,7 +16,7 @@
 
 html { scroll-behavior: smooth; }
 
-#chi-sono, #servizi, #galleria, #recensioni, #contatti,
+#chi-sono, #servizi, #galleria, #recensioni, #contatti, #come-funziona,
 #servizio-sposa, #servizio-editoriale, #servizio-eventi, #servizio-lezioni {
   scroll-margin-top: 90px;
 }
